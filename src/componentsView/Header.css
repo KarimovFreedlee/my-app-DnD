@@ -1,0 +1,17 @@
+.HeaderBody{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+}
+
+h4{
+    color: white;
+}
+
+h4:hover{
+    color: blue;
+    cursor: pointer;
+}
+

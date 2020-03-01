@@ -1,0 +1,11 @@
+.Body{
+    background-image: url(/background.jpg);
+    background-size: cover;
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    margin: 0;
+}
