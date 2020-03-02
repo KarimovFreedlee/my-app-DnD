@@ -11,7 +11,6 @@ class Footer extends Component{
     }
 
     render(){
-        const {isOpen} = this.state
         return(
             <div className='FooterBody'>
                 <button onClick ={this.handlClick}>Dice</button>

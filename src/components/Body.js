@@ -1,11 +1,14 @@
 import React, {Component} from 'react'
+import Footer from './Footer'
+import MessageContainer from './MessageContainer'
 import '../componentsView/Body.css'
 
 class Body extends Component{
     render(){
         return(
             <div className='Body'>
-                <h3>Body</h3>
+                <MessageContainer/>
+                <Footer/>
             </div>
         );
     }
