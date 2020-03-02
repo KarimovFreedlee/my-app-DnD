@@ -6,11 +6,11 @@ class DiceDesk extends Component{
     render(){
         return(
             <div className='DiceDesk'>
-                <button onClick={this.getRoll(20)}>d20</button>
-                <button onClick={this.getRoll(10)}>d10</button>
-                <button onClick={this.getRoll(8)}>d8</button>
-                <button onClick={this.getRoll(6)}>d6</button>
-                <button onClick={this.getRoll(4)}>d4</button>
+                <button onClick={()=>this.getRoll(20)}>d20</button>
+                <button onClick={()=>this.getRoll(10)}>d10</button>
+                <button onClick={()=>this.getRoll(8)}>d8</button>
+                <button onClick={()=>this.getRoll(6)}>d6</button>
+                <button onClick={()=>this.getRoll(4)}>d4</button>
             </div>
         )
     }
