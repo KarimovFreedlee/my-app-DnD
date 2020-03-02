@@ -1,0 +1,8 @@
+.FriendsButton{
+    display: flex;
+}
+
+.FriendsButton button{
+    color: white;
+    background-color: black;
+}

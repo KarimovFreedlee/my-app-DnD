@@ -1,4 +1,13 @@
 .FooterBody{
     background-color: black;
     height: 40px;
+    display: flex;
 }
+
+.DiceButton{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: black;
+}
+

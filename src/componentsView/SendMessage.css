@@ -1,0 +1,12 @@
+.SendMessage{
+    display: flex;
+}
+
+.SendMessage input{
+    width: 800px;
+}
+
+.SendMessage button{
+    color: white;
+    background-color: black;
+}
