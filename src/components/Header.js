@@ -5,8 +5,7 @@ class Header extends Component{
     render(){
         return(
             <div className = 'HeaderBody'>
-                    <h4>List of games</h4>
-                    <h4>Current game</h4>
+                    <h4>{this.props.playerName}</h4>
                     <h4>Profile</h4>
             </div>
         );

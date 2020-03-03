@@ -3,11 +3,15 @@ import Header from './Header'
 import Body from './Body'
 import '../componentsView/App.css'
  
+
+
 class App extends Component{
+
     render(){
+        const playerName = 'Vlad';
         return(
             <div>
-                <Header/>
+                <Header playerName={playerName}/>
                 <Body/>
             </div>
         );
