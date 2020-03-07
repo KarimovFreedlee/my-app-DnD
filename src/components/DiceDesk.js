@@ -1,11 +1,11 @@
-import React, {Component} from 'react'
+import React from 'react'
 import '../componentsView/DiceDesk.css'
 
-class DiceDesk extends Component{
+class DiceDesk extends React.Component{
 
     render(){
         return(
-            <div className='DiceDesk'>
+            <div className='dice-desk'>
                 {this.getButtons()}
             </div> 
         )

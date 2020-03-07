@@ -1,10 +1,10 @@
-import React, {Component} from 'react'
+import React from 'react'
 import '../componentsView/Friends.css'
 
-class Friends extends Component{
+class Friends extends React.Component{
     render(){
         return(
-            <div className='FriendsButton'>
+            <div className='friends-button'>
                 <button>Friends</button>
             </div>
         );

@@ -1,11 +1,11 @@
-import React, {Component} from 'react'
+import React from 'react'
 import '../componentsView/MessageContainer.css'
 
-class MessageContainer extends Component{
+class MessageContainer extends React.Component{
 
     render(){
         return(
-            <div className='Chat'>
+            <div className='chat'>
                 Here is going to be messages
             </div>
         );

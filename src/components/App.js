@@ -1,18 +1,17 @@
-import React, {Component} from 'react'
+import React from 'react'
 import Header from './Header'
 import Body from './Body'
 import '../componentsView/App.css'
+import Footer from './Footer';
  
-
-
-class App extends Component{
+class App extends React.Component{
 
     render(){
-        const playerName = 'Vlad';
         return(
-            <div>
-                <Header playerName={playerName}/>
+            <div className="app">
+                <Header/>
                 <Body/>
+                <Footer/>
             </div>
         );
     }

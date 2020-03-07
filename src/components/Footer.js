@@ -1,10 +1,10 @@
-import React, {Component} from 'react'
+import React from 'react'
 import DiceDesk from './DiceDesk'
 import SendMessage from './SendMessage'
-import Friends from './Friends'
+// import Friends from './Friends'
 import '../componentsView/Footer.css'
 
-class Footer extends Component{
+class Footer extends React.Component{
     constructor(props){
         super(props);
         this.state={
@@ -14,19 +14,16 @@ class Footer extends Component{
 
     render(){
         return(
-            <div className='FooterBody'>
-                <button className='DiceButton' onClick ={this.handlClick}>Dice</button>
-                <SendMessage/>
-                <Friends/>
-                {this.getDice()}
+            <div className='footer'>
+                <div className='footer-buttons'>
+                    {this.state.isOpen ? <DiceDesk/> : null}
+                    <button className='dice-button' onClick ={this.handlClick}>Dice</button>
+                    <SendMessage/>
+                </div>
+                <button className="friends-button">Friends</button>
             </div>
         );
-    }  
-
-    getDice(){
-        if (!this.state.isOpen) return null
-        return <DiceDesk/>
-    }
+    } 
 
     handlClick = () => {
         this.setState({

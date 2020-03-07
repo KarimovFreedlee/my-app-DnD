@@ -1,12 +1,12 @@
-.SendMessage{
+.send-message{
     display: flex;
 }
 
-.SendMessage input{
+.send-message input{
     width: 800px;
 }
 
-.SendMessage button{
+.send-message button{
     color: white;
     background-color: black;
 }
