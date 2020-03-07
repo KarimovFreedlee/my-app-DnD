@@ -15,10 +15,12 @@ class Footer extends React.Component{
     render(){
         return(
             <div className='footer'>
-                <button className='dice-button' onClick ={this.handlClick}>Dice</button>
-                <SendMessage/>
+                <div className='footer-buttons'>
+                    {this.state.isOpen ? <DiceDesk/> : null}
+                    <button className='dice-button' onClick ={this.handlClick}>Dice</button>
+                    <SendMessage/>
+                </div>
                 <button className="friends-button">Friends</button>
-                {this.state.isOpen ? <DiceDesk/> : null}
             </div>
         );
     } 
