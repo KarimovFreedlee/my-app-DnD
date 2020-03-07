@@ -1,9 +1,10 @@
-.HeaderBody{
+.header-body{
     background-color: black;
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 20px;
+    height: 60px;
 }
 
 h4{

@@ -1,8 +1,8 @@
-.FriendsButton{
+.friends-button{
     display: flex;
 }
 
-.FriendsButton button{
+.friends-button button{
     color: white;
     background-color: black;
 }

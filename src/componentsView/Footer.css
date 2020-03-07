@@ -1,13 +1,17 @@
-.FooterBody{
+.footer{
     background-color: black;
     height: 40px;
     display: flex;
 }
 
-.DiceButton{
+.dice-button{
     height: 40px;
     width: 100px;
     color: white;
     background-color: black;
 }
 
+.friends-button{
+    color: white;
+    background-color: black;
+}

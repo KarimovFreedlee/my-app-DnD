@@ -1,12 +1,14 @@
-import React, {Component} from 'react'
+import React from 'react'
 import '../componentsView/Header.css'
 
-class Header extends Component{
+class Header extends React.Component{
     render(){
+        const playerName = 'Vlad';
+
         return(
-            <div className = 'HeaderBody'>
-                    <h4>{this.props.playerName}</h4>
-                    <h4>Profile</h4>
+            <div className = 'header-body'>
+                <h4>{playerName}</h4>
+                <h4>Profile</h4>
             </div>
         );
     }
