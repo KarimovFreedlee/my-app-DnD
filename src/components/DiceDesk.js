@@ -12,7 +12,7 @@ class DiceDesk extends React.Component{
     }
 
     getButtons(){
-      return ([20,10,8,6,4].map((val,i) => <button key={i} onClick={()=>this.getRoll(val)}>d{val}</button>))
+      return ([20,10,8,6,4].map((val,i) => <button className="btn btn-outline-dark" key={i} onClick={()=>this.getRoll(val)}>d{val}</button>))
     }
 
     getRandom(min, max){
